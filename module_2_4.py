@@ -7,7 +7,7 @@ i = 0
 for i in range(len(numbers)):
     is_prime = True
     n = numbers[i]
-    if i < 2:
+    if i < 1:
         continue
     else:
         f = n ** (1 / 2)
